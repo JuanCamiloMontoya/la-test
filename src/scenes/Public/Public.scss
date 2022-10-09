@@ -1,0 +1,17 @@
+.public {
+  display: flex;
+  justify-content: center;
+  background: repeating-linear-gradient(163deg, $secondary 0%, $primary 100%);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  overflow-y: overlay;
+  padding: 50px 0;
+
+  .public-form {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 0 10px;
+    max-width: 350px;
+  }
+}
